@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+    background: #f7f7f7;
+}
+
+header{
+    background: #0b5d1e;
+    color: rgb(white);
+    padding: 20px;
+    text-align: center;
+}  
+
+nav a{
+    color: rgb(209, 95, 29);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active{
+    text-decoration: underline;
+}
+
+.container-carte{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.container-carte img{
+    width:  300px;
+    border-radius: 10px;
+    height: 300px;
+}
+.carte1{
+    width: 250px;
+    text-align: center;
+}
+.carte-containe{
+    gap: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+.carte-containe img{
+    width:  300px;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.carte-containe2{
+    gap: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.carte-containe2 img{
+    width:  270px;
+    height: 300px;
+    border-radius: 10px;
+}
+.cadre-texte{
+    max-width: 600px;
+    padding: 15px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    width: 80%;
+}
+.hero{
+    background: url('image/garba.jpg') center/cover;
+    padding: 80px;
+    color: rgb(196, 89, 12);
+    text-align: center;
+}
+.plats{
+    padding: 30px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background: #0b5d1e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background: #0b5d1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
